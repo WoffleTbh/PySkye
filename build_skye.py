@@ -116,6 +116,9 @@ def main():
     clean()
 
 if __name__ == "__main__":
+    if not os.path.exists("skye/SkyeEngine"):
+        print("[INFO] As of right now, SkyeEngine doesn't compile properly due to issues with the cmake file, please install manually and edit the cmake file to compile without debug flags")
+        exit(1)
     os.environ["NO_INSTALL"] = "true" # Issues with the initial CMake make it so you gotta manually install
     main()
     print("[INFO] Done")
