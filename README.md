@@ -1,4 +1,5 @@
 # PySkye
+! NOTE ! As of right now, this version of PySkye is outdated and doesn't work at all
 Python wrapper for [SkyeEngine](https://github.com/zTags/SkyeEngine)  
 ## Setting up
 Simply run `python3 build_skye.py` to build the Skye Engine into a single shared library
